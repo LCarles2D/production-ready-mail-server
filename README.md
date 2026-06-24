@@ -53,7 +53,7 @@ flowchart TD
 
 ---
 
-## 🚀 Guía de Despliegue y Uso
+## Guía de Despliegue y Uso
 
 ### Paso 1: Preparar permisos en el Host
 
@@ -91,7 +91,7 @@ docker-compose ps
 
 ---
 
-## 👥 Gestión de Usuarios en LDAP
+## Gestión de Usuarios en LDAP
 
 Para que los servidores SMTP e IMAP reconozcan a los usuarios, estos deben estar registrados en el OpenLDAP bajo la unidad organizativa `ou=usuarios,dc=frijoli,dc=com` y poseer los atributos de `CourierMailAccount`.
 
